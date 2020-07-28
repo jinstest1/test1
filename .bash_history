@@ -53,3 +53,21 @@ ls
 mv newchart sample
 ls
 git add.
+git add .
+git commit 
+git config --global user.email "jins.thomas005@gmail.com"
+git config --global user.name "Jins Thomas"
+git commit 
+git push 
+git remote add orgin https://github.com/jinstest1/sample.git
+git push orgin master
+git pull orgin master
+git push orgin master
+ls
+cd sample
+ls
+mv newchart ..
+ls
+cd ..
+ls
+git push orgin master
