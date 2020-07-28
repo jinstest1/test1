@@ -1,0 +1,18 @@
+ls
+cd clouddrive
+ls
+cd /
+ls
+get-help
+get-services 8service
+get-services *service
+get-service *service
+get-command 
+New-AzResourceGroupDeployment -ResourceGroupName freeaKStryout -TemplateFile D:\AKS\template.json
+New-AzResourceGroupDeployment -ResourceGroupName freeaKStryout -TemplateFile C:\Users\jins.thomas\Desktop\template.json
+az login
+az group create \
+  --name myResourceGroup \
+  --location "Central US"
+az group create --name myResourceGroup --location "Central US"
+templateFile="C:\Users\jins.thomas\Desktop\template.json"
